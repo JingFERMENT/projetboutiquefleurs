@@ -2,6 +2,10 @@
 /* fin des styles generaux */
 
 /* style header */
+.bouton {
+    background-color: #aec3b0;
+    border: 2px #01161e;
+}
 /* fin style header */
 
 /* style footer */
