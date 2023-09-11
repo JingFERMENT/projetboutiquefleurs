@@ -24,9 +24,25 @@ h2{
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
+
+button{
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 45px;
+    border: 0;
+    border-radius: 2px;
+    background: #124559;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
 /* fin des styles generaux */
+
 
 /* style header */
 header{
@@ -86,6 +102,82 @@ header{
 .banniere{
     background-color: #eff6e0;
 }
+/* style main */
+
+section.presentation{
+    background-color: #EFF6E0;
+    position: relative;
+}
+
+section.presentation .container{
+    display: flex;
+}
+
+
+/* Texte presentation */
+section.presentation .zone-txt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+section.presentation h2,
+section.presentation p{
+    color: #01161E;
+}
+
+section.presentation p{
+    width: 90%;
+}
+
+
+/* Image presentation */
+section.presentation .zone-img{
+    flex: 1;
+    z-index:2;
+}
+
+section.presentation .zone-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Green rectangle */
+section.presentation .green-rectangle{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    border-radius: 3px;
+    background-color: #AEC3B0;
+    width: 15vw;
+    height: 80%;
+    z-index: 1;
+}
+
+/* Responsive section Presentation */
+@media (max-width: 768px){
+    section.presentation .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.presentation p{
+        width: 100%;
+    }
+
+    section.presentation .green-rectangle{
+        display: none;
+    }
+
+
+}
+
+
+/* fin style main */
+
 /* style footer */
 section.localisation {
     background: linear-gradient(180deg, rgba(239, 246, 224, 0.00) 0%, #EFF6E0 100%);
