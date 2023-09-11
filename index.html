@@ -21,8 +21,7 @@
         </div>
         <!--logo head-->
         <!--photo head-->
-        
-    </header>
+            </header>
     <!-- fin partie header-->
     <!-- partie main-->
     <main>
@@ -36,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <section class="presentation">
+        <section class="presentation" id="presentation">
             <div class="container">
                 <!-- Texte presentation -->
                 <div class="zone-txt">
@@ -57,77 +56,87 @@
                 </div>
                 <!-- Green rectangle -->
                 <div class="green-rectangle"></div>
-            </section>
-        <section class="photos">
+            </div>
+        </section>
+        <section class="photos" id="photos">
             <div class="container">
                 <div class="grid">
                     <div class="div1"></div>
                     <div class="div2">
-                        <img src="/public/assets/img/LaManu Plants (1).jpg" alt="Logo LaManu plants">
+                        <img src="./public/assets/img/LaManu_Plants_(1).jpg" alt="Logo LaManu plants">
                     </div>
                     <div class="div3"></div>
                     <div class="div4">
-                        <img src="/public/assets/img/LaManu Plants.png" alt="Logo LaManu plants">
+                        <img src="./public/assets/img/LaManu_Plants.png" alt="Logo LaManu plants">
                     </div>
                     <div class="div5"></div>
                     <div class="div6"></div>
                     </div>
-
             </div>
         </section>
-
+            <section class="formulaire" id="contact">
+                <div class="image">
+                    <img src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="b">
+                </div>
+                <div class="right-part">
+                    <h2>Formulaire de contact</h2>
+                    <p class="text-form">Une requête ? une question ? Remplissez le formulaire ci-après et nous vous recontacterons au plus vite !</p>
+                    <form class="form" action="traitement.php" method="post">
+                        <label for="nom">Nom :</label> <br>
+                            <input class="inputForm" type="text" id="nom" name="nom" required><br><br>
+                            <label for="Prénom">Prénom :</label><br>
+                        <input class="inputForm" type="text" id="Prénom" name="Prénom" required><br><br>
+                            <label for="email">E-mail :</label><br>
+                        <input class="inputForm" type="email" id="email" name="email" required><br><br>
+                            <label for="Adresse">Adresse :</label><br>
+                        <input class="inputForm" type="text" id="Adresse" name="Adresse" required><br><br>
+                            <label for="Téléphone">Numéro de téléphone</label><br>
+                        <input class="inputForm" type="text" id="Téléphone" name="Téléphone" required><br><br>
+                                <div class="boutonformulaire">
+                        <input class="bouton" type="submit" value="Envoyer">
+                            </div>
+                    </form>
+                </div>
+            </section>
+            <section class=localisation id="localisation">
+                <h2>Où nous trouver ?</h2>
+                <div class="bottom">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.468405890193!2d2.2989007769505143!3d49.890008827557715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1694177659811!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="bottom-right"><p>La Manu Plants <br><br>
+                    70 rue des jacobins <br><br>
+                    80000 Amiens <br><br>
+                    03 22 92 30 30 <br><br><br><br>
+                    Du Lundi au Mardi 9h-9h30 <br><br>
+                    Venez Seul ! <br><br>
+                    </p>
+                    <img class="Image-bottom" src="./public/assets/img/logo.jpg" alt="logo">
+                        </div>
+                </div>
+            </section>  
+            
     </main>
     <!-- fin partie main-->
-
-
     <!--partie footer-->
     <footer>
-        <section class="formulaire">
-            <div class="image">
-                <img src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="b">
+        <div class="container">
+            <div class="footer1">
+                <img src="/public/assets/img/LaManu_Plants_(2).jpg" alt="logo"/>
+                <nav>
+                    <a href="#presentation">Présentation</a>
+                    <a href="#photos">Photos</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#localisation">Localisation</a>
+                </nav>
             </div>
-            <div class="right-part">
-                <h2>Formulaire de contact</h2>
-                <p class="text-form">Une requête ? une question ? Remplissez le formulaire ci-après et nous vous recontacterons au plus vite !</p>
-                <form class="form" action="traitement.php" method="post">
-                    <label for="nom">Nom :</label> <br>
-
-                    <input class="inputForm" type="text" id="nom" name="nom" required><br><br>
-
-                    <label for="Prénom">Prénom :</label><br>
-                    <input class="inputForm" type="text" id="prénom" name="Prénom" required><br><br>
-                
-                    <label for="email">E-mail :</label><br>
-                    <input class="inputForm" type="email" id="email" name="email" required><br><br>
-
-                    <label for="Adresse">Adresse :</label><br>
-                    <input class="inputForm" type="text" id="Adresse" name="Adresse" required><br><br>
-
-                    <label for="Téléphone">Numéro de téléphone</label><br>
-                    <input class="inputForm" type="text" id="Téléphone" name="Téléphone" required><br><br>
-
-                        <div class="boutonformulaire">
-                    <input class="bouton" type="submit" value="Envoyer">
-                        </div>
-                </form>
+            <div class="footer2">
+                <p>La manu plants <br>
+                70 Rue des Jacobins <br>
+                80000 Amiens <br>
+                03.22.92.30.30</p>
             </div>
-        </section>
-    </footer>
-    <!-- fin partie footer-->
-    <section class=localisation id=Contact>
-        <h2>Où nous trouver ?</h2>
-        <div class="bottom">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.468405890193!2d2.2989007769505143!3d49.890008827557715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1694177659811!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="bottom-right"><p>La Manu Plants <br><br>
-            70 rue des jacobins <br><br>
-            80000 Amiens <br><br>
-            03 22 92 30 30 <br><br><br><br>
-            Du Lundi au Mardi 9h-9h30 <br><br>
-            Venez Seul ! <br><br>
-            </p>
-            <img class="Image-bottom" src="./public/assets/img/logo.jpg" alt="logo">
-                </div>
         </div>
-    </section>    
+        <p>Mentions légales - © LaManu Plants - 2023</p>
+    </footer>
+        <!-- fin partie footer-->
 </body>
 </html>

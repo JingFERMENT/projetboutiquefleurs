@@ -349,8 +349,40 @@ form.form {
     padding-top:50px ;
 
 }
- form.form label {
+form.form label {
     align-self: flex-start;
- }
+}
 
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer1{
+    display: flex;
+}
+footer{
+    background-color:#124559;
+}
+.footer1 nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+footer nav a{
+    color: white;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+}
 /* fin style footer */
