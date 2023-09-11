@@ -82,7 +82,36 @@
 
     <!--partie footer-->
     <footer>
+        <section class="formulaire">
+            <div class="image">
+                <img src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="b">
+            </div>
+            <div class="right-part">
+                <h2>Formulaire de contact</h2>
+                <p class="text-form">Une requête ? une question ? Remplissez le formulaire ci-après et nous vous recontacterons au plus vite !</p>
+                <form class="form" action="traitement.php" method="post">
+                    <label for="nom">Nom :</label> <br>
 
+                    <input class="inputForm" type="text" id="nom" name="nom" required><br><br>
+
+                    <label for="Prénom">Prénom :</label><br>
+                    <input class="inputForm" type="text" id="prénom" name="Prénom" required><br><br>
+                
+                    <label for="email">E-mail :</label><br>
+                    <input class="inputForm" type="email" id="email" name="email" required><br><br>
+
+                    <label for="Adresse">Adresse :</label><br>
+                    <input class="inputForm" type="text" id="Adresse" name="Adresse" required><br><br>
+
+                    <label for="Téléphone">Numéro de téléphone</label><br>
+                    <input class="inputForm" type="text" id="Téléphone" name="Téléphone" required><br><br>
+
+                        <div class="boutonformulaire">
+                    <input class="bouton" type="submit" value="Envoyer">
+                        </div>
+                </form>
+            </div>
+        </section>
     </footer>
     <!-- fin partie footer-->
     <section class=localisation id=Contact>
