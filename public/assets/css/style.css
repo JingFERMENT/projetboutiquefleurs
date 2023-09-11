@@ -34,6 +34,41 @@ p{
 /* style footer */
 section.localisation {
     background: linear-gradient(180deg, rgba(239, 246, 224, 0.00) 0%, #EFF6E0 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.Image-bottom  {
+    width: 250px;
+    height:250px
+}
+
+.bottom-right {
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.bottom-right p {
+
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: left;
+    font-family:'DM Serif Display', serif;
+}
+
+.localisation h2 {
+    margin-bottom: 100px;
 
 }
 /* fin style footer */
