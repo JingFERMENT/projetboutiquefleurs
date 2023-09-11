@@ -191,7 +191,7 @@ section.photos .grid{
 }
 
 section.photos .div1{
-    background: url('./public/assets/img/annie-spratt-S7viz8JWxwY-unsplash.jpg');
+    background: url('../img/annie-spratt-S7viz8JWxwY-unsplash.jpg');
     background-size: cover;
     background-position: center;
     grid-area: 1 / 1 / 2 / 3;
@@ -210,7 +210,7 @@ section.photos .div2 img{
     }
 
     section.photos .div3{
-    background: url('./public/assets/img/f85eff3ff529c8bac7c648ee4f74a397.jpg');
+    background: url('../img/f85eff3ff529c8bac7c648ee4f74a397.jpg');
     grid-area: 1 / 4 / 2 / 5; 
     background-size: cover;
     background-position: center;
@@ -229,14 +229,14 @@ section.photos .div4 img{
 
 
     section.photos .div5{
-    background: url('./public/assets/img/Photo-fleur.jpg');
+    background: url('../img/Photo-fleur.jpg');
     grid-area: 2 / 2 / 3 / 3; 
     background-size: cover;
     background-position: center;
 }
 
 section.photos .div6{
-    background: url('./public/assets/img/igor-son-FV_PxCqgtwc-unsplash\ \(1\).jpg');
+    background: url('../img/igor-son-FV_PxCqgtwc-unsplash\ \(1\).jpg');
     grid-area: 2 / 4 / 3 / 5; 
     background-size: cover;
     background-position: center;
